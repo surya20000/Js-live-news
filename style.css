@@ -1,0 +1,22 @@
+#blog{
+  display: grid;
+  grid-template-columns: 33fr 33fr 33fr;
+  grid-column-gap: 5px;
+}
+
+.article{
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.article img{
+  width: 140px;
+  height: 120px;
+}
+
+.article:hover{
+  background-color: cyan;
+  
+}
